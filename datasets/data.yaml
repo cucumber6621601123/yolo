@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['sea turtle', 'terrapin', 'tortoise']
+
+roboflow:
+  workspace: piriyaporn
+  project: project-turtle-mg3og
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/piriyaporn/project-turtle-mg3og/dataset/1
